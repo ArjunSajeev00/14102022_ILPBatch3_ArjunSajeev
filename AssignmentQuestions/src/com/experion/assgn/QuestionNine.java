@@ -1,0 +1,24 @@
+package com.experion.assgn;
+
+import java.util.Scanner;
+
+public class QuestionNine {
+
+	public static void main(String[] args) {
+		
+		
+		int number;
+		System.out.println("Enter a number :");
+		Scanner scanner = new Scanner(System.in);
+		number = scanner.nextInt();
+		for(int index = 0; index < number; index++) {
+			for (int j = 0; j <= index; j++) {
+		        System.out.print( j+1 + "	");
+		      }
+		      System.out.println();
+		}
+
+
+	}
+
+}
